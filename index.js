@@ -50,7 +50,7 @@ function shortDataA_Z() {
     tr.innerHTML = `
         <td>${data.id}</td>
         <td>
-          <div class="name_img" style="color: green;>
+          <div class="name_img" style="color: green";>
           <img src=${data.img_src} alt="Student_profile"/>
           ${data.first_name} ${data.last_name}
           </div>
@@ -78,7 +78,7 @@ function shortZ_A() {
     tr.innerHTML = `
          <td>${data.id}</td>
          <td>
-          <div class="name_img" style="color: green;>
+          <div class="name_img" style="color: green;">
           <img src=${data.img_src} alt="Student_profile"/>
           ${data.first_name} ${data.last_name}
           </div>
